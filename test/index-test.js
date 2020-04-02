@@ -5,8 +5,8 @@ beforeEach(function() {
   b = Math.floor(Math.random() * 1000)
 })
 
-describe('basic math functions', function () {
-  it("'add()' is a valid function", function() {
+describe('basic math functions', function add() {
+  it("'add()' is a valid function", function add() {
     expect(add).toExist
   })
 
